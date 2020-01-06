@@ -21,10 +21,10 @@ function invocarFunciones() {
 
 function creadorDeIncrementos(n){
 		
-		return function (numeros){
+		return function (numero){
 
 			numero+=n
-			return numeros
+			return numero
 		}
 }
 
